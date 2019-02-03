@@ -1,9 +1,9 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function multiply(a, b, c) {
-  a * b * c;
-  return;
-}
+  var carpim = a*b*c;
+  return carpim;
+  }
 
 var result = multiply(1, 3, 4);
 console.log(result);

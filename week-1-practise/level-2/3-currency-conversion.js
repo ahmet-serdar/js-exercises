@@ -5,7 +5,11 @@
   Write a function that converts a price to USD (exchange rate is 1.4 $ to £)
 */
 
-function convertToUSD() {}
+function convertToUSD(number) {
+  let sonuc = number*1.4;
+  let sonucIsaretli = "$"+sonuc;
+  return sonucIsaretli;
+}
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
